@@ -5,7 +5,7 @@ document.getElementById('btn').addEventListener('click', (e)=>{
   e.preventDefault();
   (function(){
     emailjs.init({
-      privateKey: "p4KEd1Wle5A0F1P--jFoi",
+      //privateKey: "p4KEd1Wle5A0F1P--jFoi",
       publicKey: "m9RVUzkB47FrceFE7",
       
     });
