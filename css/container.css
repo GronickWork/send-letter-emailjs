@@ -1,0 +1,30 @@
+.container {
+  height: 90vh;
+  position: relative;
+  margin: auto;
+  background: #f9ffc0;
+  overflow: auto;
+  border: 1px solid #000;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+
+  .form {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    color: blue;
+  }
+
+      .btn {
+      width: max-content;
+      margin: 1rem;
+      border-radius: 8px;
+      background-color: #c8f7ef;
+      color: blue;
+      }
+      .btn:hover {
+        background-color: #a5e5da;
+      }

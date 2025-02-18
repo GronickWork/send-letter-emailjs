@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/stamp.css">
+  <title>Тестируем Emailjs</title>
+</head>
+<body>
+  <header class="stamp">
+    <div class="stamp_circ">
+      <div class="circ blink1"></div>
+      <div class="circ blink2"></div>
+      <div class="circ blink3"></div>
+    </div>
+    <div class="stamp_text">
+      <p class="h6">Гречинишников О.Н.</p>
+      <p class="h6">Тестируем Emailjs</p>
+    </div>
+  </header>
+  <main class="container">
+    <form id="form" class="form">
+      <label for="usnm">Ваше имя: </label>
+      <input type="text" name="name" id="usnm" autocomplete="name" required>
+      <label for="usph">Ваш телефон: </label>
+      <input type="tel" name="phone" id="usph" autocomplete="phone" required>
+      <label for="mess">Ваше сообщение: </label>
+      <textarea name="message" id="mess" cols="30" rows="5"></textarea>
+      <button class="btn" id="btn" type="submit">Заказать обратный звонок</button>
+    </form>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

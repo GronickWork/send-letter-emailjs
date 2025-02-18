@@ -1,0 +1,9 @@
+@font-face {
+  font-family: golos;
+  src: url('../fonts/Golos.ttf');
+}
+* {
+    box-sizing: border-box;
+    font-size: large;
+  }
+body {margin: 0; padding: 0;}
